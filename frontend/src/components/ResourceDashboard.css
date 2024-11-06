@@ -1,0 +1,98 @@
+.resource-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource-dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.resources-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resource-item {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px; /* Reduced padding for smaller tiles */
+  margin: 10px;
+  width: 100%;
+  max-width: 250px; /* Adjusted width for smaller tiles */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-item h3 {
+  color: #2c3e50;
+  margin: 0 0 10px;
+}
+
+.resource-item p {
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.contribute-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; /* Reduced padding for smaller buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contribute-button:hover {
+  background-color: #2980b9;
+}
+
+.contribute-form {
+  background-color: #ffffff;
+  padding: 15px; /* Adjusted padding for form */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px; /* Margin to separate from button */
+}
+
+.contribute-form input {
+  width: calc(100% - 20px);
+  padding: 8px; /* Reduced padding for form inputs */
+  margin: 5px 0; /* Reduced margin for form inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px; /* Adjusted padding for submit button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #27ae60;
+}
+
+.thank-you-message {
+  margin-top: 20px;
+  color: #27ae60;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 2s ease-out; /* Fade-out effect */
+}
+
+.thank-you-message.fade-out {
+  opacity: 0; /* Make it invisible for the fade-out effect */
+}

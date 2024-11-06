@@ -1,0 +1,58 @@
+/* Donation.css */
+
+.donation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.donation-container h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.donation-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.donation-container input {
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.donation-container button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Donation messages layout */
+.donation-messages {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left-messages, .right-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  align-items: center;
+}
+
+.donation-message {
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}

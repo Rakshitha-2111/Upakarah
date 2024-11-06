@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(to bottom right, #e1f5fe, #b3e5fc); /* Light blue gradient */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #0d47a1; /* Darker blue for contrast */
+}
+
+.App-header h1 {
+  font-size: 2.5em; /* Larger heading */
+  margin-bottom: 20px;
+  animation: fadeIn 1s; /* Add fade-in animation */
+}
+
+.App-link {
+  color: #0d47a1; /* Change link color to dark blue */
+  text-decoration: none; /* Remove underline */
+}
+
+.App-link:hover {
+  color: #1976d2; /* Change link color on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
